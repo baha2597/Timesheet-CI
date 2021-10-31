@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-@Library('galactech-shared-lib')_
+@Library('sharedl')_
 pipeline {
     agent any
     tools {
