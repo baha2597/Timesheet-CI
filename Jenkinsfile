@@ -2,9 +2,6 @@
 @Library('sharedl')_
 pipeline {
     agent any
-    tools {
-        maven 'Maven'
-    }
      stage("init"){
       steps{
         script{
