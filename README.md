@@ -1,2 +1,2 @@
 # Timesheet-CI
-CI
+Continious Integration Project
