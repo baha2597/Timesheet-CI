@@ -47,36 +47,6 @@ public class MissionServiceImpTest {
 		
 		
 		
-		//Count missions a make sure the return is  not null
-		@Test
-		public void testcountMission() {
-		long nbrms = Mr.count();
-		assertNotNull(nbrms);
-		l.info("Le Nombre des Employes est :" + nbrms );
-		}
-		
-		
-		
-		// Make sure the Database is not Nulls
-		@Test
-		public void testListMission() {
-		List<Mission> e = (List<Mission>) Mr.findAll();
-		assertThat(e).size().isPositive();
-		l.info(e.size() + "> 0" );
-		}
-		
-		
-		
-		
-		//delete a mission (id=2).
-		
-				@Test
-				public void deleteMission() {
-					Mission mission = new Mission();
-					int id = 2;
-					Ms.deleteMission(id);
-				}
-				
-
+	
 	
 }
