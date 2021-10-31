@@ -42,7 +42,7 @@ public class MissionServiceImpTest {
 		Ms.ajouterMission(mission);
 		assertNotNull(mission.getId());
 		l.info("Mission added successfuly ");
-		Mr.deleteById(mission.getId());
+		Mr.delete(mission);
 		}
 		
 		
