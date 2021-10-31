@@ -27,7 +27,7 @@ public class MissionServiceImpl implements IMissionService {
 	@Override
 	public long ajouterMission(Mission mission) {
 		mr.save(mission);
-		return (mission).getId();
+		return new Long(mission.getId());
 	}
 	
 	
