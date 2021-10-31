@@ -31,6 +31,15 @@ public class Employe implements Serializable {
     private int id;
 
     private String prenom;
+    private String password;
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     private String nom;
 
