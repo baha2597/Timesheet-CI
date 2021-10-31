@@ -27,7 +27,7 @@ pipeline {
         }
         stage("Email Notification") {
                     steps {
-                      mail bcc: '', body: 'Hey Gabsi , Your pipeline is running ! ', cc: '', from: '', replyTo: '', subject: 'Jenkins', to: 'bahaeddine.gabsi@gmail.tn'
+                      mail bcc: '', body: 'Hey Gabsi , Your pipeline is running ! ', cc: '', from: '', replyTo: '', subject: 'Jenkins', to: 'bahaeddine.gabsi@gmail.com'
                     }
                 }
         stage("DEPLOY") {
