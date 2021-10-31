@@ -1,8 +1,8 @@
-package tn.esprit.spring.services;
-
-import tn.esprit.spring.entities.Mission;
+package tn.spring.timesheet.services;
 
 import java.util.List;
+
+import tn.spring.timesheet.entities.Mission;
 
 public interface IMissionService {
 

@@ -1,8 +1,8 @@
-package tn.esprit.spring.services;
-
-import tn.esprit.spring.entities.Employe;
+package tn.spring.timesheet.services;
 
 import java.util.List;
+
+import tn.spring.timesheet.entities.Employe;
 
 public interface IEmployeService {
 

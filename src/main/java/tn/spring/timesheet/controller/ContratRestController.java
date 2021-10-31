@@ -1,9 +1,9 @@
-package tn.esprit.spring.control;
-
+package tn.spring.timesheet.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import tn.esprit.spring.entities.Contrat;
-import tn.esprit.spring.services.IContratService;
+
+import tn.spring.timesheet.entities.Contrat;
+import tn.spring.timesheet.services.IContratService;
 
 @RestController
 public class ContratRestController {

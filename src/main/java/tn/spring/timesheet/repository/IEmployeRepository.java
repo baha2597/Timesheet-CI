@@ -1,11 +1,12 @@
-package tn.esprit.spring.repository;
+package tn.spring.timesheet.repository;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import tn.esprit.spring.entities.Employe;
-import tn.esprit.spring.entities.Entreprise;
+
+import tn.spring.timesheet.entities.Employe;
+import tn.spring.timesheet.entities.Entreprise;
 
 import java.util.List;
 

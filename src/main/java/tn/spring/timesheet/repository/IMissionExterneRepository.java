@@ -1,8 +1,7 @@
-package tn.esprit.spring.repository;
-
+package tn.spring.timesheet.repository;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import tn.esprit.spring.entities.MissionExterne;
+import tn.spring.timesheet.entities.MissionExterne;
 
 @Repository
 public interface IMissionExterneRepository  extends CrudRepository<MissionExterne,Long>{

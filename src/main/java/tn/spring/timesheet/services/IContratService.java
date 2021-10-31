@@ -1,7 +1,7 @@
-package tn.esprit.spring.services;
-
+package tn.spring.timesheet.services;
 import org.springframework.stereotype.Repository;
-import tn.esprit.spring.entities.Contrat;
+
+import tn.spring.timesheet.entities.Contrat;
 
 @Repository
 public interface IContratService {

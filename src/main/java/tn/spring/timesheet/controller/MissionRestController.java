@@ -1,9 +1,9 @@
-package tn.esprit.spring.control;
+package tn.spring.timesheet.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import tn.esprit.spring.entities.Mission;
-import tn.esprit.spring.services.MissionServiceImpl;
+import tn.spring.timesheet.entities.*;
+import tn.spring.timesheet.services.MissionServiceImpl;
 
 import java.util.List;
 

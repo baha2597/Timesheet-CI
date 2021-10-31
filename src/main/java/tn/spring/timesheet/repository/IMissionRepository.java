@@ -1,8 +1,10 @@
-package tn.esprit.spring.repository;
+package tn.spring.timesheet.repository;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-import tn.esprit.spring.entities.Mission;
+
+import tn.spring.timesheet.entities.Mission;
+
 
 public interface IMissionRepository extends CrudRepository<Mission, Long>{
 	

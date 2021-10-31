@@ -1,9 +1,9 @@
-package tn.esprit.spring.services;
-
+package tn.spring.timesheet.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tn.esprit.spring.entities.Mission;
-import tn.esprit.spring.repository.IMissionRepository;
+
+import tn.spring.timesheet.entities.Mission;
+import tn.spring.timesheet.repository.IMissionRepository;
 
 import java.util.List;
 
