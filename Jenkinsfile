@@ -34,14 +34,14 @@ pipeline {
         stage('build image') {
             steps {
                 script {
-            BuildImage('192.168.122.41:8082/app.${IMAGE_NAME}')
+            BuildImage('192.168.122.41:8082/app')
                 }
             }
         }
         stage('deploy image') {
             steps {
                 script {
-                    dockerPush('192.168.122.41:8082/app.${IMAGE_NAME}')
+                    dockerPush('192.168.122.41:8082/app')
                 }
             }
         }
