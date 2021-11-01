@@ -15,10 +15,10 @@ pipeline {
             steps {
                script {
                    echo "Unit test.."
-                   sh 'mvn test'
+                   sh ' echo -n riadh | sudo mvn test'
                    echo "Quality Code ..."
                     withCredentials([usernamePassword(credentialsId: 'sonar', passwordVariable: 'PASS', usernameVariable: 'USER')]) {
-                      sh 'mvn clean verify sonar:sonar -Dsonar.login=${PASS}'
+                      sh 'echo -n riadh | sudo mvn clean verify sonar:sonar -Dsonar.login=${PASS}'
                     }
                }
             }
@@ -27,7 +27,7 @@ pipeline {
             steps {
                script {
                    echo "building the application..."
-                   sh 'mvn clean package'
+                   sh 'echo -n riadh | sudo mvn clean package'
                }
             }
         }
