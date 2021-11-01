@@ -34,6 +34,12 @@ pipeline {
             }
         }
     }
+    stage("Email Notification"){
+		 steps{emailext body: '''Hi welcome to jenkins email alerts
+    Thanks
+    Maro''', subject: 'timesheet job', to: 'riahi.marwen1@esprit.tn'
+                }
+	    }
    
     post {
         always {
