@@ -40,7 +40,7 @@ pipeline {
     Maro''', subject: 'timesheet job', to: 'riahi.marwen1@esprit.tn'
                 }
 	    }
-   
+   }
     post {
         always {
             cleanWs()
